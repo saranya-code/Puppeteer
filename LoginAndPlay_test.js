@@ -1,5 +1,5 @@
 Feature('LoginNavigate1');
-
+// Scenario test cases
 Scenario('Login to Demo Site', ({ I }) => {
     I.amOnPage('/Login.html')
     I.fillField("UserName","admin")
